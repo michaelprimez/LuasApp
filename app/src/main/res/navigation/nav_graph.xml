@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LuasForecastFragment">
+
+    <fragment
+        android:id="@+id/LuasForecastFragment"
+        android:name="com.michaelkeskinidis.luasapp.ui.fragments.LuasForecastFragment"
+        android:label="@string/luas_forecast_fragment_label"
+        tools:layout="@layout/fragment_luas_forecast">
+        <action
+            android:id="@+id/action_LuasForecastFragemt_to_LuasStopInfoFragment"
+            app:destination="@id/LuasStopInfoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/LuasStopInfoFragment"
+        android:name="com.michaelkeskinidis.luasapp.ui.fragments.LuasStopInfoFragment"
+        android:label="@string/luas_stop_info_fragment_label"
+        tools:layout="@layout/fragment_luas_stop_info">
+
+        <action
+            android:id="@+id/action_LuasStopInfoFragment_to_LuasForecastFragemt"
+            app:destination="@id/LuasForecastFragment" />
+    </fragment>
+
+</navigation>

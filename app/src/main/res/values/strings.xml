@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LUAS App</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="luas_forecast_fragment_label">Luas Forecast</string>
+    <string name="luas_stop_info_fragment_label">Luas Stop Info Forecast</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="refresh_data">Refresh Tram Forecast</string>
+
+    <string name="waiting">Please Wait…</string>
+    <string name="empty">Tram data yet!</string>
+
+    <string name="no_internet_connection"> There is no Internet connection </string>
+    <string name="no_internet_connection_description"> No Internet Connection, can not fetch data. </string>
+    <string name="ok">OK</string>
+    <string name="one_direction">Direction</string>
+    <string name="stop_info">Stop Info</string>
+
+    <plurals name="minutes">
+        <item quantity="one">%1$s min</item>
+        <item quantity="other">%1$s mins</item>
+    </plurals>
+</resources>
