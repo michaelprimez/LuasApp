@@ -9,7 +9,7 @@ import java.util.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class LocationDirectionPrroviderTest {
+class LocationDirectionProviderTest {
 
     private final val locationDirectionProvider = LocationDirectionProviderImpl()
 
