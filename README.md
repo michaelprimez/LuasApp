@@ -30,7 +30,14 @@ Base tests are performed.
 * Calculation of the location and the stop based on time.
 * Http client parcing tests.
 * Http client connectivity tests.
+* UI Swipe down to refresh.
 * UI visibility tests.
+
+### Todo
+1. Seams that the 2 fragments can be merged in one as the functionality is pretty much the same.
+2. More UI tests.
+	* RecycleView Tests.
+	* Adapters Tests.
 
 
 
