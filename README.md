@@ -4,7 +4,7 @@
 
 ### Description
 Luas tram forecast. The application consists of 2 fragments. The first satisfies the below use cases. The second present the user the particular station info.
-The user can user the refresh button or swipe down to fetch new data.
+The user can use the refresh button or swipe down to fetch new data.
 
 ### Use cases
 
